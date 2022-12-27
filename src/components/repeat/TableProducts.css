@@ -1,0 +1,15 @@
+.table {
+    width: 100%;
+}
+
+.table__th{
+    background-color: #008b8b;
+}
+
+.table--even {
+    background-color: #ddd;
+}
+
+.table--odd {
+    background-color: #ccc;
+}

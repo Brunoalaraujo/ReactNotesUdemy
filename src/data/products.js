@@ -1,0 +1,17 @@
+export default [
+    {id: 1, name:"Caneta", price: 1.25},
+    {id: 2, name:"Lápis", price: 0.75},
+    {id: 3, name:"Borracha", price: 1.50},
+    {id: 4, name:"Papel", price: 0.25},
+    {id: 5, name:"Caderno", price: 5.50},
+    {id: 6, name:"Tesoura", price: 2.50},
+    {id: 7, name:"Régua", price: 1.75},
+    {id: 8, name:"Lápis colorido", price: 1.25},
+    {id: 9, name:"Clips", price: 0.15},
+    {id: 10, name:"Marcador", price: 3.25},
+    {id: 11, name:"Aponador", price: 4.00},
+    {id: 12, name:"Lapiseria", price: 5.00},
+    {id: 13, name:"Ponta 0.5B", price: 0.50},
+    {id: 14, name:"Ponta 0.7B", price: 0.75},
+    {id: 15, name:"Ponta 1B", price: 1.00},
+]
