@@ -9,9 +9,9 @@ export default (props) => {
     }
 
     return (
-        <div className="card" style={cardStyle} >
-            <div className="card__title">{props.title}</div>
-            <div className="card__p">{props.children}</div>
+        <div className="c-card" style={cardStyle} >
+            <div className="c-card__title">{props.title}</div>
+            <div className="c-card__p">{props.children}</div>
         </div>
     )
 }

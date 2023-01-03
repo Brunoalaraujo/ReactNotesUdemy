@@ -1,0 +1,16 @@
+.c-input{
+    display: flex;
+    flex-direction: column;
+}
+
+.c-input__input {
+    font-size: 1.4rem;
+}
+
+.c-input--read {
+    background-color: greenyellow;
+}
+
+.c-input--undefined {
+    background-color: blueviolet;
+}

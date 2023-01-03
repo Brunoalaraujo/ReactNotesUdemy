@@ -3,7 +3,7 @@ import React from "react";
 
 import Card from "./components/layout/Card";
 
-import Input from "./components/from/input";
+import Input from "./components/form/Input"
 import IndirectlyFather from "./components/comunication/IndirectlyFather";
 import DirectlyFather from "./components/comunication/DirectlyFather";
 import UserInfo from "./components/conditional/UserInfo";
@@ -16,13 +16,12 @@ import RandomNumb from "./components/basic/RandomNumb";
 import Fragment from "./components/basic/Fragment";
 import WithParam from "./components/basic/WithParam";
 import First from "./components/basic/First";
-import Input from "./components/myFrom/input";
 
 export default props =>
     <div className="app">
         <h1>Fundamentos React</h1>
-        <div className="app__cards">
-            <Card title = "#11 - Componente Controlado" color="#">
+        <div className="c-app__cards">
+            <Card title = "#11 - Componente Controlado" color="#E45F56">
                 <Input/>
             </Card>
             <Card title="#10 - Comunicação Indireata" color="#8BAD39">

@@ -1,15 +1,15 @@
-.table {
+.c-table {
     width: 100%;
 }
 
-.table__th{
+.c-table__th{
     background-color: #008b8b;
 }
 
-.table--even {
+.c-table--even {
     background-color: #ddd;
 }
 
-.table--odd {
+.c-table--odd {
     background-color: #ccc;
 }

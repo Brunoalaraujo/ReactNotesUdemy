@@ -1,4 +1,4 @@
-.card {
+.c-card {
     border: 3px solid;
     border-radius: 10px;
     overflow: hidden;
@@ -10,13 +10,13 @@
     min-width: 500px;
 }
 
-.card__title {
+.c-card__title {
     padding: 5px 0px;
     display: flex;
     justify-content: center;
 }
 
-.card__p {
+.c-card__p {
     flex: 1;
     background-color: #fff;
     color: #000;
