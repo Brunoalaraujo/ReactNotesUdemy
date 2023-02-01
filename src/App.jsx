@@ -3,6 +3,8 @@ import React from "react";
 
 import Card from "./components/layout/Card";
 
+import Mega from "./components/mega/Mega";
+import Counter from "./components/counter/Counter";
 import Input from "./components/form/Input"
 import IndirectlyFather from "./components/comunication/IndirectlyFather";
 import DirectlyFather from "./components/comunication/DirectlyFather";
@@ -21,6 +23,12 @@ export default props =>
     <div className="app">
         <h1>Fundamentos React</h1>
         <div className="c-app__cards">
+            <Card title = "#13 - Mega" color="#B9006E">
+                <Mega/>
+            </Card>
+            <Card title = "#12 - Contador" color="#424242">
+                <Counter firstNumb={10}/>
+            </Card>
             <Card title = "#11 - Componente Controlado" color="#E45F56">
                 <Input/>
             </Card>
